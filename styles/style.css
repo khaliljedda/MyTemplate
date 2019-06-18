@@ -1,0 +1,246 @@
+    
+      img{ border-radius: 10%;
+            width:120px;
+            height:120px;
+   
+      }
+      .skil{
+          text-align: center;
+          width:15px;
+          height:15px;
+      }
+      
+      .text{font-weight: 900;
+         color: aliceblue;}
+      
+     
+      
+      #khalil1 {
+          padding: 5px;
+          text-align: center;
+          background-color: #e5eecc;
+          border: solid 1px #c3c3c3;
+           padding: 50px;
+          display: none;
+         
+            }
+      
+    
+      
+    
+    .row.content {
+       height: auto ;
+       min-height: 500px;
+     }
+      
+    
+
+      img{ border-radius: 10%;
+            width:120px;
+            height:120px;
+   
+      }
+      .skil{
+          text-align: center;
+          width:15px;
+          height:15px;
+      }
+      
+      .text{font-weight: 900;
+         color: aliceblue;}
+     
+      #khalil1 {
+          padding: 5px;
+          text-align: center;
+          background-color: #e5eecc;
+          border: solid 1px #c3c3c3;
+           padding: 50px;
+          display: none;
+         
+            }
+      #contactme{
+               
+          background-color: rgba(0,0,0,0.6);
+          border: solid 1px #c3c3c3;
+          position: relative;
+          top: 15px;
+           padding: 50px;
+           height:auto;
+          text-align: center;
+          display:none;
+          border-bottom:solid 2px;
+          
+            }
+          
+      
+      
+      
+     
+      #contact{ color: aliceblue;
+          font-size: 120%;
+          border-radius:20px; 
+          }
+   
+    .row.content {
+       height: auto ;
+       min-height: 500px;
+     }
+      
+    
+    /* Set gray background color and 100% height */
+    
+      .project{
+          text-align: left;
+      }
+    
+    
+      
+      
+    /* On small screens, set height to 'auto' for sidenav and grid */
+   
+      .menu{
+          border:solid 1px grey;
+          border-radius: 20%;
+          margin-top: 10px;
+          text-align: center;
+          background-color:rgba(0,5,5,0.4);}
+      
+ 
+      .box{
+          
+          width: 60%;
+         margin-left: 20% ;
+ }
+      .normaltext{
+          color:aliceblue;
+          font-size: 20px;
+      }
+      .myimg{
+          border-radius: 20%;
+          width: 180px;
+          height: 200px;
+        }
+      .text{font-weight: 900;
+         color: aliceblue;}
+      
+     
+      #aboutme{
+               
+            background-color: rgba(0,0,0,0.6);
+          border: solid 1px #c3c3c3;
+          position: relative;
+          top: 15px;
+           padding: 50px;
+          height: auto;
+          text-align: center;
+          display:none;
+            }
+     
+      .nav { color: aliceblue;
+            font-size: 120%;
+            margin: 2%;
+        
+         }
+      
+      
+     
+
+     
+
+      .row.content {
+       height: auto ;
+       min-height: 630px;
+     }
+   
+      .tsawer{
+          margin:10%;
+          
+          
+      }
+    
+      .box{
+          
+          width: 60%;
+         margin-left: 20% ;
+ }
+      .normaltext{
+          color:aliceblue;
+          font-size: 20px;
+      }
+      .myimg{
+          border-radius: 20%;
+          width: 180px;
+          height: 200px;
+        }
+      .text{font-weight: 900;
+         color: aliceblue;}
+     
+
+          
+       body { background-image: url(img/bg.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0;
+            padding: 0;} 
+     
+      
+      
+    
+    
+    
+     
+
+    .row.content {height:auto ;
+                 min-height: 500px}
+      
+    
+   
+   
+      .row.content {height: auto;} 
+    
+       h1{font-weight: 900;}
+     
+      
+    
+
+     
+      
+      
+      h4{
+           color: aliceblue;
+      }
+     
+      button{
+          color:black;
+      }
+      input  {
+          width: 50%;
+          height: 35px;  
+          color :black;
+      }
+      textarea {
+          width: 50%;
+          height: 70px;
+        color:black;}
+
+    .row.content {height:auto ;
+                 min-height: 500px}
+      
+    .sidenav {
+        color:red;
+        background-color:;
+        
+        height: 100%;
+        margin-top: 7%;
+        
+    }
+   
+    
+   
+    @media screen and (max-width: 750px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+    }
