@@ -9,32 +9,27 @@
      .skils{
           width:225px;
           height:190px;
-  $ }
+     }
 
-      
-      
-
-     
-
-      
       .text{font-weight: 900;
          color: aliceblue;}
      
-      #khalil1 {
-          padding: 5px;
-          text-align: center;
-          background-color: #e5eecc;
-          border: solid 1px #c3c3c3;
-           padding: 50px;
-          display: none;
-         
-            }
+/*
+          #khalil1 {
+              padding: 5px;
+              text-align: center;
+              background-color: #e5eecc;
+              border: solid 1px #c3c3c3;
+               padding: 50px;
+              display: none;
+
+                }
+*/
       #aboutme{
                
           background-color: rgba(0,0,0,0.6);
           border: solid 1px #c3c3c3;
-         
-           padding: 50px;
+          padding: 50px;
            
           text-align: center;
           display:none;
@@ -73,7 +68,7 @@
    
       .menu{
           border:solid 1px grey;
-          border-radius: 20%;
+          border-radius: 10%;
           margin-top: 10px;
           text-align: center;
           background-color:rgba(0,5,5,0.4);}
@@ -123,7 +118,7 @@
          margin-left: 20% ;
  }
       .normaltext{
-          color:aliceblue;
+          color:cornsilk;
           font-size: 20px;
       }
       .myimg{
@@ -143,19 +138,6 @@
               margin: 0;
               padding: 0;} 
      
-      
-      
-    
-    
-    
-     
-
-   
-   
-   
-      
-    
-      
       .text1{color:cornsilk;
            margin-left:2%;}
     
@@ -163,20 +145,45 @@
      
       
       
-     
+
+     button{
+             width:150px;
+            height: 40px;
+}
       .button{
           color:black;
-         font-weight: 700;
+          font-weight: 700;
+          font-size: 17px;
       }
-      input  {
+input[type=text] {
           width: 50%;
           height: 35px;  
-          color :black;
+          color:    black;
+           border-radius:10px; 
+      }
+input[type=email] {
+          width: 50%;
+          height: 35px;  
+          color:    black;
+           border-radius:10px; 
+      }
+input[type=tel] {
+          width: 50%;
+          height: 35px;  
+          color:    black;
+           border-radius:10px; 
+      }
+input[type=url] {
+          width: 50%;
+          height: 35px;  
+          color:    black;
+           border-radius:10px; 
       }
       textarea {
+          border-radius:10px; 
           width: 50%;
           height: 70px;
-        color:black;}
+          color:blue;}
 
       
     .sidenav {
