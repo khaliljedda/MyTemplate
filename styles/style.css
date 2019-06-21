@@ -1,44 +1,21 @@
     
-      img{ border-radius: 10%;
-            width:120px;
-            height:120px;
+      .imag{ border-radius: 10%;
+            
+          width:120px;
+          height:120px;
+            
    
       }
-      .skil{
-          text-align: center;
-          width:15px;
-          height:15px;
-      }
-      
-  
-     
-      
-      #khalil1 {
-          padding: 5px;
-          text-align: center;
-          background-color: #e5eecc;
-          border: solid 1px #c3c3c3;
-           padding: 50px;
-          display: none;
-         
-            }
-      
-    
-      
-    
-    
-    
+     .skils{
+          width:225px;
+          height:190px;
+  $ }
 
-      img{ border-radius: 10%;
-            width:120px;
-            height:120px;
-   
-      }
-      .skil{
-          text-align: center;
-          width:15px;
-          height:15px;
-      }
+      
+      
+
+     
+
       
       .text{font-weight: 900;
          color: aliceblue;}
@@ -52,30 +29,20 @@
           display: none;
          
             }
-      #contactme{
+      #aboutme{
                
           background-color: rgba(0,0,0,0.6);
           border: solid 1px #c3c3c3;
-          position: relative;
-          top: 15px;
+         
            padding: 50px;
-           height:auto;
+           
           text-align: center;
           display:none;
           border-bottom:solid 2px;
+           
           
             }
-     #aboutme{
-               
-          background-color: rgba(0,0,0,0.6);
-          border: solid 1px #c3c3c3;
-          position: relative;
-          top: 15px;
-          padding: 50px;
-          
-          text-align: center;
-          display:none;
-            }
+   
       
       
       
@@ -86,12 +53,14 @@
           }
    
       .row.content {
-       
+          margin-top: 10px;
+          margin-bottom: 15px;
+          height:auto;
+          min-height: 40vw;
+         
        
      }
       
-        /* Set gray background color and 100% height */
-
     
       .project{
           text-align: left;
@@ -100,7 +69,7 @@
     
       
       
-    /* On small screens, set height to 'auto' for sidenav and grid */
+   
    
       .menu{
           border:solid 1px grey;
@@ -139,10 +108,7 @@
          }
       
       
-     
-
-     
-
+    
       
    
       .tsawer{
@@ -189,17 +155,14 @@
    
       
     
-       h1{font-weight: 900;}
-     
       
+      .text1{color:cornsilk;
+           margin-left:2%;}
     
 
      
       
       
-      h4 {
-           color: aliceblue;
-      }
      
       .button{
           color:black;
