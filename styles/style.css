@@ -1,205 +1,276 @@
-    
+
       .imag{ border-radius: 10%;
             
-          width:120px;
-          height:120px;
-            
-   
-      }
-     .skils{
-          width:225px;
-          height:190px;
-     }
-
-      .text{font-weight: 900;
-         color: aliceblue;}
-     
-/*
-          #khalil1 {
-              padding: 5px;
-              text-align: center;
-              background-color: #e5eecc;
-              border: solid 1px #c3c3c3;
-               padding: 50px;
-              display: none;
-
-                }
-*/
-      #aboutme{
-               
-          background-color: rgba(0,0,0,0.6);
-          border: solid 1px #c3c3c3;
-          padding: 50px;
-           
-          text-align: center;
-          display:none;
-          border-bottom:solid 2px;
-           
+        width:120px;
+        height:120px;
           
-            }
-   
-      
-      
-      
-     
-      #contact{ color: aliceblue;
-          font-size: 120%;
-          border-radius:20px; 
-          }
-   
-      .row.content {
-          margin-top: 10px;
-          margin-bottom: 15px;
-          height:auto;
-          min-height: 40vw;
-         
-       
-     }
-      
-    
-      .project{
-          text-align: left;
-      }
-    
-    
-      
-      
-   
-   
-      .menu{
-          border:solid 1px grey;
-          border-radius: 10%;
-          margin-top: 10px;
-          text-align: center;
-          background-color:rgba(0,5,5,0.4);}
-      
  
-      .box{
-          
-          width: 60%;
-         margin-left: 20% ;
- }
-      .normaltext{
-          color:aliceblue;
-          font-size: 20px;
-      }
-      .myimg{
-          border-radius: 20%;
-          width: 180px;
-          height: 200px;
-        }
-      .text{font-weight: 900;
-         color: aliceblue;}
-      
-     
-     
-
-    
-     
-      .nav { color: aliceblue;
-            font-size: 120%;
-            margin: 2%;
+    }
+   .skils{
+        width:225px;
+        height:190px;
+        margin: auto;
         
-         }
-      
-      
-    
-      
+   }
+
    
-      .tsawer{
-          margin:10%;
-          
-          
-      }
-    
-      .box{
-          
-          width: 60%;
-         margin-left: 20% ;
- }
-      .normaltext{
-          color:cornsilk;
-          font-size: 20px;
-      }
-      .myimg{
-          border-radius: 20%;
-          width: 180px;
-          height: 200px;
-        }
-      .text{font-weight: 900;
-         color: aliceblue;}
-     
+   .title{font-weight: 900;
+    color:cornsilk;}
+    .text{font-weight: 900;
+       color:white}
 
-          
-       body { background-image: url(../img/bg.jpg);
-              background-repeat: no-repeat;
-              background-size: cover;
-              background-attachment: fixed;
-              margin: 0;
-              padding: 0;} 
-     
-      .text1{color:cornsilk;
-           margin-left:2%;}
-    
-
-     
-      
-      
-
-     button{
-             width:150px;
-            height: 40px;
-}
-      .button{
-          color:black;
-          font-weight: 700;
-          font-size: 17px;
-      }
-input[type=text] {
-          width: 50%;
-          height: 35px;  
-          color:    black;
-           border-radius:10px; 
-      }
-input[type=email] {
-          width: 50%;
-          height: 35px;  
-          color:    black;
-           border-radius:10px; 
-      }
-input[type=tel] {
-          width: 50%;
-          height: 35px;  
-          color:    black;
-           border-radius:10px; 
-      }
-input[type=url] {
-          width: 50%;
-          height: 35px;  
-          color:    black;
-           border-radius:10px; 
-      }
-      textarea {
-          border-radius:10px; 
-          width: 50%;
-          height: 70px;
-          color:blue;}
-
-      
-    .sidenav {
-        color:red;
-        background-color:;
+    #page{
+             
+        background-color: rgba(0,0,0,0.6);
+        border: solid 1px #c3c3c3;
+        text-align: center;
+        display:none;
+        border-bottom:solid 2px;
+        padding: 5%;
         
-        height: 100%;
-        margin-top: 7%;
+        
+        
+          }
+          #educationPage{
+             
+            
+            text-align:initial;
+            padding: 5%;
+
+              }
+ 
+    
+
+   
+    #contact{ color: aliceblue;
+        font-size: 120%;
+        border-radius:20px; 
+        }
+ 
+    .row.content {
+        margin-top: 10px;
+        margin-bottom: 15px;
+        height:auto;
+        min-height: 40vw;
+        
+     
+   }
+    
+  
+  
+  
+  
+    
+    
+ 
+ 
+    .menu{
+        border:solid 1px grey;
+        border-radius: 10%;
+        margin-top: 10px;
+        text-align: center;
+        background-color:rgba(0,5,5,0.4);
+        }
+    
+
+    .box{
+        
+        width: 60%;
+       margin-left: 20% ;
+}
+    .normaltext{
+        color:aliceblue;
+        font-size: 20px;
+    }
+    .myimg{
+        border-radius: 20%;
+        width: 180px;
+        height: 200px;
+      }
+    
+   
+   
+
+  
+   
+    .nav { color: aliceblue;
+          font-size: 120%;
+          margin: 2%;
+      
+       }
+    
+       
+    
+ 
+    .tsawer{
+        margin:10%;
+        
         
     }
+  
+    .box{
+        
+        width: 60%;
+       margin-left: 20% ;
+}
+    .normaltext{
+        color:cornsilk;
+        font-size: 20px;
+    }
+    .myimg{
+        border-radius: 20%;
+        width: 180px;
+        height: 200px;
+      }
+   
+
+        
+     body { background-image: url(../img/bg.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+        
+        } 
+   
+    .text1{color:whitesmoke;
+         margin-left:2%;}
+  
+
    
     
+    
+
+   button{
+           width:150px;
+          height: 40px;
+}
+    .button{
+        color:black;
+        font-weight: 700;
+        font-size: 17px;
+    }
+input[type=text] {
+        width: 50%;
+        height: 35px;  
+        color:    black;
+         border-radius:10px; 
+    }
+input[type=email] {
+        width: 50%;
+        height: 35px;  
+        color:    black;
+         border-radius:10px; 
+    }
+input[type=tel] {
+        width: 50%;
+        height: 35px;  
+        color:    black;
+         border-radius:10px; 
+    }
+input[type=url] {
+        width: 50%;
+        height: 35px;  
+        color:    black;
+         border-radius:10px; 
+    }
+    textarea {
+        border-radius:10px; 
+        width: 50%;
+        height: 70px;
+        color:blue;}
+
+    
+  .sidenav {
+      color:red;
+      background-color:;
+      
+      height: 100%;
+      margin-top: 7%;
+      
+  }
+ /*----------menu size------------------------*/
+  @media only screen and (max-width: 800px) {
+    .big{
+      display :none ; 
+    }
+    .small{
+        display:block ;
+    }
+  }
+
+  @media only screen and (min-width: 800px) {
+    .big{
+      display :block ; 
+    }
+    .small{
+        display:none ;
+    }
+  }
+ 
+ 
+  @media screen and (max-width: 750px) {
+    .sidenav {
+      height: auto;
+      padding: 15px;
+    }
+}
+    /*------------------------------------------------------*/
+   /*------------input-----*/
+   @media only screen and (max-width: 800px) {
+    input[type=text] {
+        width: 90%;
+        height: 35px;  
+        color:    black;
+         border-radius:10px; 
+    }
+input[type=email] { 
+        width: 90%;
+        height: 35px;  
+        color:    black;
+         border-radius:10px; 
+    }
+input[type=tel] {
+        width: 90%;
+        height: 35px;  
+        color:    black;
+         border-radius:10px; 
+    }
+input[type=url] {
+        width: 90%;
+        height: 35px;  
+        color:    black;
+         border-radius:10px; 
+    }
+    textarea {
+        border-radius:10px; 
+        width: 90%;
+        height: 70px;
+        color:blue;}
    
-    @media screen and (max-width: 750px) {
-      .sidenav {
-        height: auto;
-        padding: 15px;
-      }
-     
+  }
+
+/*--------------------project----------------------------------*/
+.project{
+    border:solid 1px white;
+     width: 265px;
+     min-height: 210px;
+     margin:auto;
+     margin:auto;
+     margin-bottom:40px;
+     background-color: rgba(109, 102, 102, 0.7);
+   
+}
+.imageProjet{
+    height:160px;
+    width:255px; 
+    margin:auto;
+    margin-top: 3px;
+}
+.imageModal{
+    width: 95%;
+    height: auto;
+    min-height: 350px;
+    max-height: 450px;
+}

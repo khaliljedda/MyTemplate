@@ -3,92 +3,205 @@
 <head>
   <title>Khalil portfolio</title>
   <meta charset="utf-8">
-<link rel="stylesheet" href="styles/style.css">
+    
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="js/index.js" ></script>
+
     
-  <script>
-   $(document).ready(function(){
- 
-    $("#aboutme").slideDown("slow");
   
-});
-    
-</script>
-  <style>
-   
-      
-  </style>
 </head>
+
 <body>
 
-<div class="container-fluid">
-  <div class="row content">
-      
-    <div class="col-sm-3 sidenav" >
+  <div class="container-fluid">
+    <div class="row content">
+
+      <div class="col-xs-3 sidenav">
         <nav class="">
           <ul class="nav flex-column">
             <li class="nav-item menu">
-              <a class="nav-link nav" href="index.html" id="khalil">About me</a>
+              <a class="nav-link nav" href="index.html">
+                <p class="big">Home</P>
+                <div class="small"><i class="fas fa-home"></i></div>
+              </a>
+
             </li>
-           
+
             <li class="nav-item menu">
-             <a class="nav-link nav" href="skills.html">Skills</a>
-           </li>
+              <a class="nav-link nav" href="skills.html">
+                <p class="big">Skills</P>
+                <div class="small"><i class="fas fa-laptop-code"></i></div>
+              </a>
+            </li>
+
             <li class="nav-item menu">
-              <a class="nav-link nav" href="projects.html">My Project</a>
+              <a class="nav-link nav" href="projects.html">
+                <p class="big">Projects</P>
+                <div class="small"><i class="fas fa-chalkboard-teacher"></i></div>
+              </a>
             </li>
-           <li class="nav-item menu">
-              <a class="nav-link nav " href="education.html" id ="Education">Education</a>
-            </li>
+
             <li class="nav-item menu">
-              <a class="nav-link nav" href="contact%20me.html">Contact me</a>
+              <a class="nav-link nav " href="education.html" id="Education">
+                <p class="big">Education</P>
+                <div class="small"><i class="fas fa-book-open"></i></div>
+              </a>
             </li>
+
+            <li class="nav-item menu">
+              <a class="nav-link nav" href="contact%20me.html">
+                <p class="big">Contact</P>
+                <div class="small"><i class="far fa-envelope-open"></i></div>
+              </a>
+            </li>
+
           </ul>
         </nav>
-    </div>
-    <div class="col-sm-9">
-        <div id="aboutme">
-              
-              <h1 class="text">MY PROJECTS</h1>
-              <br><br><br>
-            
-                <div class="row content">
-                    <DIV class="project">
+      </div>
+
+      <div class="col-xs-9">
+          <div id="page">
+              <br>
+                <h1 class="title" > PROJECTS</h1>
+                <br> <br> <br>
+              <!------projects--> 
+                  <div class="row content">               
+                      <div class="col-md-6 col-lg-4  ">
+                          <div class="project">
+                            <a data-toggle="modal" data-target="#myModal"><img src="img/bg.jpg" alt="" class="imageProjet"></a>
+                            <div class="text1">
+                              <h4>the project one</h4>                               
+                            </div>
+                         </div>     
+                     </div>
+                     <div class="col-md-6 col-lg-4  ">
+                      <div class="project">
+                        <a data-toggle="modal" data-target="#myModal1"><img src="img/angular.jpg" alt="" class="imageProjet"></a>
+                        <div class="text1">
+                          <h4>the project one</h4>                         
+                        </div>
+                     </div>  
+                    </div> 
+                     <div class="col-md-6 col-lg-4  ">
+                      <div class="project">
+                        <a data-toggle="modal" data-target="#myModal2"><img src="img/bootstrap.jpg" alt="" class="imageProjet"></a>
+                        <div class="text1">
+                          <h4>the project one</h4>
+                        </div>
+                     </div> 
+                    </div>    
+                    <div class="col-md-6 col-lg-4  ">
+                      <div class="project">
+                        <a data-toggle="modal" data-target="#myModal2"><img src="img/bootstrap.jpg" alt="" class="imageProjet"></a>
+                        <div class="text1">
+                          <h4>the project one</h4>
+                        </div>
+                     </div> 
+                    </div>        
+                    <div class="col-md-6 col-lg-4  ">
+                      <div class="project">
+                        <a data-toggle="modal" data-target="#myModal2"><img src="img/bootstrap.jpg" alt="" class="imageProjet"></a>
+                        <div class="text1">
+                          <h4>the project one</h4>
+                        </div>
+                     </div> 
+                    </div>        
+                    <div class="col-md-6 col-lg-4  ">
+                      <div class="project">
+                        <a data-toggle="modal" data-target="#myModal2"><img src="img/bootstrap.jpg" alt="" class="imageProjet"></a>
+                        <div class="text1">
+                          <h4>the project one</h4>
+                        </div>
+                     </div> 
+                    </div>            
+                 </div>
+                     
                     
-                        
-                    <h2 class="text">Connected shelf</h2>
-                    <div class="text1">
-                        <h4 >Un système informatique qui indique aux personnels d’une grande surface que le stock d’un produit bien déterminer est épuisé ou presque épuisé</h4>
+                 <!-------------------> 
+
+               <!------modals-->  
+                 <div class="modal fade" id="myModal" role="dialog">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Modal Header</h4>
+                      </div>
+                      <div class="modal-body">
+                        <img src="img/bg.jpg" class="imageModal" alt=""><br>
+                        <p>This is a large modalghjkfgjhk ghjkghk gfkghjkg fgjkgjkg.</p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
                     </div>
-                        <br>
-                    <h2 class="text">Application web</h2>
-                    <h4 class="text1">Une plate-forme de gestions des examens.
-                     Cette application contient beaucoup des options qui touchent les Administratives, les enseignants et les étudiants
-                     </h4>
-                                            <br>
-                    <h2 class="text">My portfolio</h2>
-                    <h4 class="text1">Un site web statique qui contient mon dossier personnel dans lequel les acquis de formation et les acquis de l’expérience </h4>
-                        <br>    
-                        
-                    </DIV>
-                </div>     
-            
+                  </div>
+                </div>
+                              <!------>
+                <div class="modal fade" id="myModal1" role="dialog">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Modal Header</h4>
+                      </div>
+                      <div class="modal-body">
+                        <img src="img/angular.jpg" class="imageModal" alt=""><br>
+                        <p>This is a large modalghjkfgjhk ghjkghk gfkghjkg fgjkgjkg.</p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                               <!------>
+                               <div class="modal fade" id="myModal2" role="dialog">
+                                <div class="modal-dialog modal-lg">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                      <h4 class="modal-title">Modal Header</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                      <img src="img/bootstrap.jpg" class="imageModal" alt=""><br>
+                                      <p>This is a large modalghjkfgjhk ghjkghk gfkghjkg fgjkgjkg.</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                <!------------>   
+                     
+          </div>
        
-            
-            
-           
-        </div>
-     
-     </div>
-      
-  </div>
+      </div>                 
+    </div>
+  </div>                 
+</div>
+              
+
 </div>
 
 
 
+      
+    
+    
+    
+              
+
+
 </body>
+
 </html>
